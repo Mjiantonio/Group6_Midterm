@@ -1,9 +1,9 @@
 <?php
 
-require_once '../models/event.php';
-require_once '../models/participant.php';
-require_once '../models/registration.php';
-require_once '../models/database.php';
+require_once '../event.php';
+require_once '../participant.php';
+require_once '../registration.php';
+require_once '../database.php';
 
 header("Content-Type: application/json");
 
