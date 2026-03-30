@@ -1,8 +1,8 @@
 <?php
 // api.php
 
-require_once '../models/participant.php';
-require_once '../models/database.php';
+require_once '../participant.php';
+require_once '../database.php';
 
 header("Content-Type: application/json");
 
