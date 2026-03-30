@@ -17,10 +17,6 @@ $reg = new Registration($db);
 
 $method = $_SERVER['REQUEST_METHOD'];
 
-
-
-$input = json_decode(file_get_contents("php://input"), true);
-
 if ($method === 'GET') {
     if (isset($_GET['participants_per_event'])) {
      $participant_per_event = $event->getParticipantsCountPerEvent();
